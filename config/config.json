@@ -1,0 +1,10 @@
+{
+    "port": "3007",
+    "mongodb": {
+        "host": "localhost",
+        "port": "27017",
+        "database": "scoop_land",
+        "username": "",
+        "password": ""
+    }
+}
