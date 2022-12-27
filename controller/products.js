@@ -1,6 +1,7 @@
 let { body, validationResult } = require('express-validator'),
     { InsertDoc, GetAggregationDoc, RemoveDocument, OBJECTID } = require('../model/mongodb');
-module.exports = () => {
+
+module.exports = (app) => {
     let router = {};
 
     router['get_all_products'] = async (req, res) => {
